@@ -2,7 +2,6 @@ import numpy as np
 import time
 from Models import BaseModelR
 import os
-from Algos.ppo import PPO
 import torch as t
 
 class SingleInstance():
@@ -108,6 +107,7 @@ class LearnerInstance():
             train_data = self.get_data(data_save_dir)
 
             for i in range(self.n_epochs):
-                PPO.learn(train_data, model)
+                #PPO time
+                pass
 
             time.sleep(self.check_timer)
