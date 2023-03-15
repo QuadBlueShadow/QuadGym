@@ -1,3 +1,4 @@
+TODO:
 - Add ppo learning algorithm
 - Test everything
 - Adjustable agents that can use any action parser and obs
